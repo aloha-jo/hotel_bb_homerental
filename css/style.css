@@ -85,6 +85,10 @@ p {
   font-size: 40px;
 }
 
+.md-heading {
+  font-size: 25px;
+}
+
 /* Padding */
 .py-1 { padding: 10px 0; }
 .py-2 { padding: 20px 0; }
@@ -197,7 +201,7 @@ p {
 #about-info .info-right img {
   display: block;
   margin: auto;
-  width: 70%;
+  width: 60%;
   border-radius: 50%;
 }
 
@@ -205,6 +209,11 @@ p {
   float: left;
   width: 50%;
   min-height: 100%;
+}
+
+#about-info p {
+  font-size: 10px;
+  line-height: 1.9em;
 }
 
 /* Testimonials */
@@ -234,12 +243,18 @@ p {
   border-radius: 50%;
 }
 
+#testimonials .testimonial p {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.9em;
+}
+
 /* Contact Form */
 #contact-form .form-group {
   margin-bottom: 20px;
 }
 
-#conact-form label {
+#contact-form label {
   display: block;
   margin-bottom: 5px;
 }
