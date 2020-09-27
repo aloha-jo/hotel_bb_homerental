@@ -183,31 +183,37 @@ p {
 .box {
   float: left;
   width: 33.3%; /* Border-box above * */
-  padding: 50px;
+  padding: 10px;
   text-align: center;
 }
 
+.box phone {
+  padding: 100px;
+}
+
 .box i {
-  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 /* About Info */
 #about-info .info-right {
   float: right;
-  width: 50%;
+  width: 40%;
   min-height: 100%;
 }
 
 #about-info .info-right img {
   display: block;
-  margin: auto;
-  width: 60%;
+  margin: 25px 50px;
+  width: 75%;
+  height: 350px;
   border-radius: 50%;
 }
 
 #about-info .info-left {
   float: left;
-  width: 50%;
+  width: 60%;
   min-height: 100%;
 }
 
@@ -268,12 +274,17 @@ p {
 
 #contact-form textarea {
   height: 200px;
+  
 }
 
 #contact-form input:focus, 
 #contact-form textarea:focus {
   outline: none;
   border-color: #f7c08a;
+}
+
+#contact-info {
+  text-align: center;
 }
 
 /* Main Footer */
